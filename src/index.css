@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-gothic: 'UnifrakturMaguntia', cursive, serif;
+  --font-display: 'Cinzel Decorative', 'Cinzel', serif;
+  --font-cinzel: 'Cinzel', serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Custom Medieval & Gothic Textural Enhancements */
+.font-gothic {
+  font-family: var(--font-gothic);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel);
+}
+
+.font-cormorant {
+  font-family: var(--font-serif);
+}
+
+/* Subtle parchment grain simulation */
+.bg-parchment {
+  background-color: #f7f3e8;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(240, 230, 210, 0.5) 0%, rgba(220, 205, 180, 0.3) 100%),
+    repeating-linear-gradient(45deg, rgba(160, 140, 110, 0.03) 0px, rgba(160, 140, 110, 0.03) 2px, transparent 2px, transparent 4px);
+}
+
+.bg-dark-parchment {
+  background-color: #14120e;
+  background-image: radial-gradient(circle at 50% 0%, rgba(60, 48, 30, 0.25) 0%, transparent 75%);
+}
+
+.border-gothic-gold {
+  border-color: #bfa15f;
+}
+
+.text-gold-light {
+  color: #e5cb8f;
+}
+
+.text-gold-muted {
+  color: #c5a059;
+}
+

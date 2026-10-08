@@ -1,0 +1,6 @@
+{
+  "name": "Scriptorium Gothicus - Inscrição em Caligrafia Gótica",
+  "description": "Página de inscrição elegante para novos clientes e encomendas de caligrafia gótica medieval com integração direta ao Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
